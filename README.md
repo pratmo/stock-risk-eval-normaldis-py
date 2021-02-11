@@ -11,3 +11,7 @@ The below questions are answered to help the investor make his decision:
 4. Which stock has higher probablity of making a loss (risk) of 2% or more?
 
 We use the concepts of normal distribution and descriptive statistics to achieve this task.
+
+Tool: Exported .py from Jupyter Notebook (conda 4.9.2)
+
+System: Linux (Ubuntu) 20.04.01 Focal Fossa
