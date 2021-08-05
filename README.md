@@ -12,6 +12,16 @@ The below questions are answered to help the investor make his decision:
 
 We only use the concepts of normal distribution and descriptive statistics to achieve this task (no ML model). The idea is to understand the working of probability and normal distribution in a real world example.
 
+Used methods:
+1. pct_change() pandas method - Percentage change between the current and a prior element. Computes the percentage change from the immediately previous row by default. This is useful in comparing the percentage of change in a time series of elements. 
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pct_change.html
+
+2. pd.DatetimeIndex(beml_df['Date']) - The DataFrames have a date column, so we can create a DatetimeIndex index from this column Date. It will ensure that the rows are sorted by time in ascending order.
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DatetimeIndex.html 
+
+3. df.set_index() - make specified column as index
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_index.html 
+
 Tool: Exported .py from Jupyter Notebook (conda 4.9.2)
 
 System: Linux (Ubuntu) 20.04.01 Focal Fossa
